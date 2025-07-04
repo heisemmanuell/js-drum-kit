@@ -52,3 +52,29 @@ body{
   color: #ffc600;
   letter-spacing: .1rem;
 }
+
+@media (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 1.7rem;
+  }
+
+  .key{
+    width: 2.7rem;
+    height: 1.7rem;
+    font-size: 2rem;
+  }
+
+  .label{
+    font-size: 0.8rem;
+  }
+
+  .key:active{
+    border: 3px solid #ffc600;
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+
+}
